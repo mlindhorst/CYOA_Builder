@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/Melynda/AndroidStudioProjects/CYOA_Builder/app/build/intermediates/exploded-aar/CYOA_Builder/aFileChooser/unspecified/res/values-v19/values.xml -->
+    <eat-comment />
+
+    <bool name="use_activity">false</bool>
+    <bool name="use_provider">true</bool>
+
+</resources>

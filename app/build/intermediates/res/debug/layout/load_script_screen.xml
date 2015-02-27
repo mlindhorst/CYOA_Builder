@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/medium_purple">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:text="New Game"
+        android:paddingTop="10dp"
+        android:textColor="@color/mustard"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:text="WARNING: Starting a new game will erase previous game progress."
+        android:textColor="@color/black"
+        android:paddingBottom="10dp"
+        android:textColorHighlight="@color/mustard"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:paddingTop="10dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:text="Script Path:"
+            android:textColor="@color/black"
+            android:padding="3dp"
+            android:textColorHighlight="@color/mustard"/>
+
+        <EditText
+            android:id="@+id/path_field"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:padding="3dp"
+            android:background="@color/white"
+            android:gravity="center"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Search"
+            android:layout_gravity="center"
+            android:onClick="launchFileDialog"
+            style="@style/button"/>
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:background="@color/medium_purple"/>
+
+        <Button
+            android:id="@+id/to_cc_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Next"
+            android:layout_gravity="center"
+            android:onClick="launchCharacterCreation"
+            style="@style/button"/>
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/Melynda/AndroidStudioProjects/CYOA_Builder/app/src/main/res/layout/load_script_screen.xml -->

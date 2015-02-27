@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/Melynda/AndroidStudioProjects/CYOA_Builder/app/src/main/res/values/spinners.xml -->
+    <eat-comment />
+
+    <string-array name="eye_color_array">
+        <item>Brown</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Hazel</item>
+        <item>Gray</item>
+        <item>Unusual Color</item>
+    </string-array>
+    <string-array name="hair_color_array">
+        <item>Black</item>
+        <item>Blonde</item>
+        <item>Brown</item>
+        <item>Red</item>
+        <item>Unusual Color</item>
+    </string-array>
+    <string-array name="hair_length_array">
+        <item>Short</item>
+        <item>Medium</item>
+        <item>Long</item>
+    </string-array>
+    <string-array name="stature_array">
+        <item>Short</item>
+        <item>Medium</item>
+        <item>Tall</item>
+    </string-array>
+    <!-- From: file:/C:/Users/Melynda/AndroidStudioProjects/CYOA_Builder/app/src/main/res/values/bool.xml -->
+    <eat-comment />
+
+    <bool name="use_activity">true</bool>
+    <!-- From: file:/C:/Users/Melynda/AndroidStudioProjects/CYOA_Builder/app/build/intermediates/exploded-aar/CYOA_Builder/aFileChooser/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <bool name="use_provider">false</bool>
+    <!-- From: file:/C:/Users/Melynda/AndroidStudioProjects/CYOA_Builder/app/src/main/res/values/colors.xml -->
+    <eat-comment />
+
+    <item name="black" type="color">#000000</item>
+    <item name="charcoal" type="color">#5B5A5B</item>
+    <item name="dark_purple" type="color">#3E2B46</item>
+    <item name="grayed_out" type="color">#EADEE0</item>
+    <item name="light_purple" type="color">#EADEF9</item>
+    <item name="medium_purple" type="color">#9570A3</item>
+    <item name="mustard" type="color">#EDE2A3</item>
+    <item name="white" type="color">#FFFFFF</item>
+    <!-- From: file:/C:/Users/Melynda/AndroidStudioProjects/CYOA_Builder/app/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="default_button_size">5dp</dimen>
+    <!-- From: file:/C:/Users/Melynda/AndroidStudioProjects/CYOA_Builder/app/build/intermediates/exploded-aar/CYOA_Builder/aFileChooser/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <dimen name="list_item_padding">16dp</dimen>
+    <dimen name="list_padding">0dp</dimen>
+    <!-- From: file:/C:/Users/Melynda/AndroidStudioProjects/CYOA_Builder/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="CYOA_name">Choose Your Own Adventure</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Choose Your Own Adventure</string>
+    <string name="character_name">you</string>
+    <string name="choose_file">Choose File</string>
+    <string name="current_dialogue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempor neque sed turpis semper, vitae blandit metus tempus. Duis sit amet facilisis enim. Etiam luctus a nulla nec bibendum. </string>
+    <string name="current_speaker">ANDI</string>
+    <!-- From: file:/C:/Users/Melynda/AndroidStudioProjects/CYOA_Builder/app/build/intermediates/exploded-aar/CYOA_Builder/aFileChooser/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <string name="empty_directory">Empty Directory</string>
+    <string name="error_selecting_file">Error selecting File</string>
+    <!-- From: file:/C:/Users/Melynda/AndroidStudioProjects/CYOA_Builder/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="hello_world">Hello world!</string>
+    <!-- From: file:/C:/Users/Melynda/AndroidStudioProjects/CYOA_Builder/app/build/intermediates/exploded-aar/CYOA_Builder/aFileChooser/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <string name="internal_storage">Internal storage</string>
+    <string name="storage_removed">Storage was removed or unmounted.</string>
+    <!-- From: file:/C:/Users/Melynda/AndroidStudioProjects/CYOA_Builder/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="story_state">Prologue</string>
+    <!-- From: file:/C:/Users/Melynda/AndroidStudioProjects/CYOA_Builder/app/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="button" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:width">100dp</item>
+        <item name="android:height">100dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@drawable/default_button</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <!-- From: file:/C:/Users/Melynda/AndroidStudioProjects/CYOA_Builder/app/build/intermediates/exploded-aar/CYOA_Builder/aFileChooser/unspecified/res/values/values.xml -->
+    <eat-comment />
+
+    <style name="fileChooserName">
+        <item name="android:drawablePadding">@dimen/list_item_padding</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:paddingLeft">@dimen/list_item_padding</item>
+        <item name="android:paddingRight">@dimen/list_item_padding</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    <!-- From: file:/C:/Users/Melynda/AndroidStudioProjects/CYOA_Builder/app/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="label_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/dark_purple</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="mm_button" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@color/light_purple</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHighlight">@color/mustard</item>
+        <item name="android:gravity">center</item>
+        <item name="android:width">100dp</item>
+        <item name="android:height">50dp</item>
+    </style>
+
+    <style name="speaker_text" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">fill_vertical</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@color/dark_purple</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="spinner_input">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/charcoal</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="user_input">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/charcoal</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+</resources>

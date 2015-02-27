@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/Melynda/AndroidStudioProjects/CYOA_Builder/app/build/intermediates/exploded-aar/CYOA_Builder/aFileChooser/unspecified/res/values-de/values.xml -->
+    <eat-comment />
+
+    <string name="choose_file">Wähle eine Datei</string>
+    <string name="empty_directory">Leerer Ordner</string>
+    <string name="error_selecting_file">Fehler beim Öffnen der Datei</string>
+    <string name="storage_removed">Speicher wurde entferntet.</string>
+
+</resources>

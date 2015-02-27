@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_purple"
+    android:weightSum="10"
+    android:gravity="center">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:text="@string/CYOA_name"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/mustard"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/white"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:background="@color/light_purple"/>
+
+    <Button
+        android:id="@+id/continue_button"
+        style="@style/button"
+        android:text="CONTINUE"
+        android:onClick="continueGame"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="@color/light_purple"/>
+    
+    <Button
+        android:id="@+id/new_button"
+        style="@style/button"
+        android:text="NEW"
+        android:onClick="newGame"/>
+
+
+
+</LinearLayout><!-- From: file:/C:/Users/Melynda/AndroidStudioProjects/CYOA_Builder/app/src/main/res/layout/main_menu.xml -->
