@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="hair_color_array">
+        <item>Black</item>
+        <item>Blonde</item>
+        <item>Brown</item>
+        <item>Red</item>
+        <item>Unusual Color</item>
+    </string-array>
+
+    <string-array name="hair_length_array">
+        <item>Short</item>
+        <item>Medium</item>
+        <item>Long</item>
+    </string-array>
+
+    <string-array name="eye_color_array">
+        <item>Brown</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Hazel</item>
+        <item>Gray</item>
+        <item>Unusual Color</item>
+    </string-array>
+
+    <string-array name="stature_array">
+        <item>Short</item>
+        <item>Medium</item>
+        <item>Tall</item>
+    </string-array>
+
+</resources>

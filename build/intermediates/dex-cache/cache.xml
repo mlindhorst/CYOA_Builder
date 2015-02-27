@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Melynda\AndroidStudioProjects\CYOA_Builder\app\build\intermediates\pre-dexed\debug\classes-60236282a90fe5210d8cba736f79e92fc861db11.jar"
+        jar="C:\Users\Melynda\AndroidStudioProjects\CYOA_Builder\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3"/>
+    <item
+        dex="C:\Users\Melynda\AndroidStudioProjects\CYOA_Builder\app\build\intermediates\pre-dexed\debug\classes-992d6092ce0c3e74741fccfd4f7edf0f0b080aeb.jar"
+        jar="C:\Users\Melynda\AndroidStudioProjects\CYOA_Builder\app\build\intermediates\exploded-aar\CYOA_Builder\aFileChooser\unspecified\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f6389e68ecf10b77f26518c65ff3e5bbdf242d87"/>
+    <item
+        dex="C:\Users\Melynda\AndroidStudioProjects\CYOA_Builder\app\build\intermediates\pre-dexed\debug\picasso-2.4.0-210371813615007a7c3e034c4b2621a21c23d864.jar"
+        jar="C:\Users\Melynda\AndroidStudioProjects\CYOA_Builder\app\libs\picasso-2.4.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2"/>
+    <item
+        dex="C:\Users\Melynda\AndroidStudioProjects\CYOA_Builder\app\build\intermediates\pre-dexed\debug\gson-2.3-03bea78b8ece0f9447d9b1fde1e65bd8f0a6b6f2.jar"
+        jar="C:\Users\Melynda\AndroidStudioProjects\CYOA_Builder\app\libs\gson-2.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce"/>
+    <item
+        dex="C:\Users\Melynda\AndroidStudioProjects\CYOA_Builder\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-031b4e2a983c5df96973c7d2001b549f9fa8536d.jar"
+        jar="C:\Users\Melynda\AppData\Local\Android\android-studio1\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.2\support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6"/>
+    <item
+        dex="C:\Users\Melynda\AndroidStudioProjects\CYOA_Builder\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-31314560861c410712813901cc4b326a6664df6a.jar"
+        jar="C:\Users\Melynda\AndroidStudioProjects\CYOA_Builder\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\libs\internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f"/>
+
+</pre-dex-items>

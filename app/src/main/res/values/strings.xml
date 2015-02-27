@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Choose Your Own Adventure</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="CYOA_name">Choose Your Own Adventure</string>
+    <string name="current_speaker">ANDI</string>
+    <string name="choose_file">Choose File</string>
+    <string name="character_name">you</string>
+    <string name="story_state">Prologue</string>
+    <string name="current_dialogue">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempor neque sed turpis semper, vitae blandit metus tempus. Duis sit amet facilisis enim. Etiam luctus a nulla nec bibendum. </string>
+
+</resources>
