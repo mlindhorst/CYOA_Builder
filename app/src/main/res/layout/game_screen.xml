@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_purple"
+    android:weightSum="3"
+    android:gravity="center">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/scene_bg"
+            android:layout_width="1080dp"
+            android:layout_height="1920dp"/>
+
+        <ImageView
+            android:id="@+id/character"
+            android:layout_width="1080dp"
+            android:layout_height="1920dp"/>
+
+        <Spinner
+            android:id="@+id/choice_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:background="@color/white"
+            android:visibility="invisible"
+            android:entries="@array/hair_color_array" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:background="@color/medium_purple"
+            android:weightSum="5"
+            android:layout_alignParentBottom="true">
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/speaker_box"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                style="@style/speaker_text"/>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="3dp"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/dialogue_box"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:layout_gravity="left"
+                android:padding="2dp"
+                android:textSize="17dp"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/next_page"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="NEXT"
+                android:layout_gravity="right"
+                android:onClick="nextPage"
+                style="@style/button"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

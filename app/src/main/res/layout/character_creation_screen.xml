@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_purple"
+    android:padding="3dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHARACTER CREATION"
+        android:textColor="@color/charcoal"
+        android:textSize="25dp"
+        android:paddingBottom="9dp"
+        android:paddingTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/label_text"
+            android:text="Name"/>
+
+        <EditText
+            android:id="@+id/name_field"
+            android:text="You"
+            style="@style/user_input"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/label_text"
+            android:text="Gender"/>
+
+        <RadioGroup
+            android:layout_width="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:id="@+id/rg_gender"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:id="@+id/female"
+                android:layout_height="wrap_content"
+                android:text="FEMALE"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:id="@+id/male"
+                android:layout_height="wrap_content"
+                android:text="MALE"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:id="@+id/nb"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="NB"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/label_text"
+            android:text="Pronouns"/>
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:id="@+id/default_pronouns"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Default"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:background="@color/light_purple"/>
+
+        <TextView
+            style="@style/label_text"
+            android:text="They"/>
+
+        <EditText
+            android:id="@+id/they_field"
+            style="@style/user_input"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:background="@color/light_purple"/>
+
+        <TextView
+            style="@style/label_text"
+            android:text="Them"/>
+
+        <EditText
+            android:id="@+id/them_field"
+            style="@style/user_input"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:background="@color/light_purple"/>
+
+        <TextView
+            style="@style/label_text"
+            android:text="Their"/>
+
+        <EditText
+            android:id="@+id/their_field"
+            style="@style/user_input"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:background="@color/light_purple"/>
+
+        <TextView
+            style="@style/label_text"
+            android:text="Themself"/>
+
+        <EditText
+            android:id="@+id/themself_field"
+            style="@style/user_input"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/label_text"
+            android:text="Hair Color"/>
+
+        <Spinner
+            android:id="@+id/hair_color_spinner"
+            android:entries="@array/hair_color_array"
+            style="@style/spinner_input"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/label_text"
+            android:text="Hair Style"/>
+
+        <Spinner
+            android:id="@+id/hair_style_spinner"
+            android:entries="@array/hair_length_array"
+            style="@style/spinner_input"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/label_text"
+            android:text="Eye Color"/>
+
+        <Spinner
+            android:id="@+id/eye_color_spinner"
+            android:entries="@array/eye_color_array"
+            style="@style/spinner_input"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/label_text"
+            android:text="Stature"/>
+
+        <Spinner
+            android:id="@+id/stature_spinner"
+            android:entries="@array/stature_array"
+            style="@style/spinner_input"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/to_start_button"
+        android:padding="10dp"
+        android:onClick="startGame"
+        android:text="START"
+        style="@style/button"/>
+
+</LinearLayout>
